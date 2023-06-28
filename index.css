@@ -21,9 +21,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(35, 102, 227);
     background: url('../assets/background_image.jpg');
-    background-color : black;
+    background-color : rgb(12, 99, 240);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,7 +110,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-    background: paleturquoise;
+    background: rgb(8, 0, 249);
 }
 
 .next-button-container{
@@ -131,7 +131,7 @@ input[type=radio]:checked ~ .option {
     outline: none;
 }
 .next-button-container button:hover{
-    background-color: rgb(143, 93, 93);
+    background-color: rgb(55, 0, 254);
 }
 
 .modal-container{
@@ -280,3 +280,4 @@ input[type=radio]:checked ~ .option {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
